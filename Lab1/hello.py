@@ -21,6 +21,7 @@ def about():
 def contact():
     return '''
     <p>This is the Contact Page.</p>
+    <p>Contact me at: c23399501@mytudublin.ie</p>
     <p>Go back to the <a href="/">Home Page</a>.</p>
     '''
     
