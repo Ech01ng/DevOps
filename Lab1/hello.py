@@ -7,12 +7,20 @@ def hello():
     return '''
     <p>Hello world, I am a FLASK APP!</p>
     <p>Go to the <a href="/about">About Page</a>.</p>
+    <p>Go to the <a href="/contact">Contact Page</a>.</p>
     '''
     
 @app.route('/about')
 def about():
     return '''
     <p>This is the About Page.</p>
+    <p>Go back to the <a href="/">Home Page</a>.</p>
+    '''
+
+@app.route('/contact')
+def contact():
+    return '''
+    <p>This is the Contact Page.</p>
     <p>Go back to the <a href="/">Home Page</a>.</p>
     '''
     
