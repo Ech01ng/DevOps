@@ -18,6 +18,16 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 - GitHub Actions
 
+## When Renaming MAIN Branch
+
+- If you have a local clone, you can update it by running the following commands.
+```bash
+    git branch -m main thisisastring
+    git fetch origin
+    git branch -u origin/thisisastring thisisastring
+    git remote set-head origin -a
+```
+
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
