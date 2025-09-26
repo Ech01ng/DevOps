@@ -16,9 +16,6 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 ## Technologies Used
 
-- Docker
-- Kubernetes
-- Jenkins
 - GitHub Actions
 
 
