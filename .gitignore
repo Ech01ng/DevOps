@@ -1,0 +1,17 @@
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+*.tiff
+*.ico
+
+# Ignore all text files
+*.txt
+*.doc
+*.docx
+
+lab2/
